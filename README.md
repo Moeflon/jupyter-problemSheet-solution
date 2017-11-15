@@ -1,9 +1,62 @@
 # jupyter-problemSheet-solution
-4th year python assignment using jupyter notebook, numpy, &amp; pyplot 
 
-## Problem set: Jupyter, pyplot and numpy
+## Introduction
+The following is a 4th year in-class assignment for Emerging technologies. These problems relate to Jupyter, numpy, and pyplot. We will use the famous iris data set, and plot some graphs to give a visual representation of the data.
 
-These problems relate to Jupyter, numpy, and pyplot. We will use the famous iris data set. Save your work as a single Jupyter notebook file in a GitHub repository. Include any required data files, a README, and a gitignore file in the repository.
+### What is the IRIS data set?
+
+The IRIS data set consists of 50 samples from each of 3 species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
+
+For more info see : [IRIS](https://archive.ics.uci.edu/ml/datasets/iris)
+
+## Getting started
+
+To be able to run these scripts we have a bit of setup to do first. Firstly we will need to have python installed you can get it here:
+
+[Python](https://www.python.org/downloads/)
+
+Once the download & installation of Python is finished we are ready to go!
+
+You might need to install some dependencies.
+
+Open a CMD / Terminal window on your system and type in the following:
+
+##### Installing Jupyter Notebook
+
+First, ensure that you have the latest pip; older versions may have trouble with some dependencies:
+
+```pip3 install --upgrade pip```
+
+Then install the Jupyter Notebook using:
+
+```pip3 install jupyter```
+
+For more informaton about Jupyter Notebook you can find it [HERE](http://jupyter.org/install.html)
+
+##### Other Dependencies
+
+1. Seaborn -> ```pip install seaborn```
+2. Numpy -> ```pip install numpy```
+3. MatPlotlib -> ```pip install matplotlib```
+4. Scipy -> ```pip install scipy``` 
+
+With that out of the way we can go to the directory of the project
+
+```cd path/to/directory```
+
+Once in the project directory we will use the following commands to run the scripts
+
+```python iris.py```
+
+This will run the python version of the script from the Command line or Terminal
+
+Other wise we can view this using Jupyter Notebook
+
+```jupyter notebook```
+
+This will open a webpage where you can then view the irisDataSet.ipynb file
+
+## Assignment Specification
 
 ### 1. Get and load the data
 
